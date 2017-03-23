@@ -1,0 +1,37 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>reg</title>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="reg.css">
+	<div class="reg">
+	  <h1>[ 報名表單 ]</h1>
+	  <form action="https://docs.google.com/forms/d/e/1FAIpQLScM4B6u7nOkNQqUOlSBn7fKXm5cjuno14nyCKRlA4XyjSY9Qg/formResponse  ">
+	    <!--label(for="姓名") 姓名：-->
+	    <input class="block" type="text" name="entry.1339495092" id="姓名" required="required" placeholder="  姓名"/><br/>
+	    <!--label(for="學院") 學院：-->
+	    <select class="block" name="entry.1944781450" id="學院">
+	      <option>請選擇</option>
+	      <option>文學院</option>
+	      <option>理學院</option>
+	      <option>社會科學院</option>
+	      <option>法學院</option>
+	      <option>商學院</option>
+	      <option>外國語文學院</option>
+	      <option>傳播學院</option>
+	      <option>國際事務學院</option>
+	      <option>教育學院</option>
+	    </select><br/>
+	    <!--label(for="手機") 手機：-->
+	    <input class="block" type="text" name="entry.795504394" id="手機" required="required" pattern="09[1-8][0-9][0-9]{3}[0-9]{3}" maxlength="10" placeholder="  手機"/><br/>
+	    <!--label(for="Email") Email：-->
+	    <input class="block" type="email" name="entry.560282373" required="required" pattern="^w+((-w+)|(.w+))*@[A-Za-z0-9]+((.|-)[A-Za-z0-9]+)*.[A-Za-z]+$" placeholder="  Email"/><br/>
+	    <!--label(for="生日") 生日：-->
+	    <input class="block" type="date" name="entry.324774019" id="生日" min="1911-01-01" max="2017-01-01"/><br/>
+	    <input type="hidden" name="entry.189820201" value="103202050"/>
+	    <input class="submit" type="submit" value="註冊"/>
+	  </form>
+	</div>
+</body>
+</html>

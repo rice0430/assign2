@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+body {
+  background: linear-gradient(to bottom, #B7FFAF 0%, #eee 100%);
+}
+
+.reg {
+  position: absolute;
+  width: 250px;
+  height: 375px;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.block, .submit {
+  width: 250px;
+  height: 40px;
+  margin-top: 15px;
+  background-color: white;
+  border: 0px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.submit {
+  background-color: #32906e;
+  border: 0px;
+  color: white;
+}
